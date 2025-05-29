@@ -210,7 +210,7 @@ _sfc_main$e.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/NavBar.vue");
   return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
 };
-const _imports_0 = "/assets/me-C1BLV1AF.jpg";
+const _imports_0 = "/Lexety/assets/me-C1BLV1AF.jpg";
 const _sfc_main$d = {
   __name: "Hero",
   __ssrInlineRender: true,
@@ -997,7 +997,7 @@ const routes = [
   }
 ];
 createRouter({
-  history: createMemoryHistory("/"),
+  history: createMemoryHistory("/Lexety/"),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
