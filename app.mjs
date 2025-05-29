@@ -45,7 +45,7 @@ const _sfc_main$e = {
       _push(`<nav${ssrRenderAttrs(mergeProps({
         class: ["z-50 flex flex-col md:flex-row items-center justify-center md:gap-5 gap-0 p-2 md:p-5 border-b-2 border-black/30 font-light bg-white fixed w-full top-0 transition-all duration-300", { "md:p-2 p-1": isScrolled.value }]
       }, _attrs))}><ul class="md:flex gap-4 bg-black/10 p-3 px-6 hidden"><li>`);
-      _push(ssrRenderComponent(_component_router_link, { to: "/home" }, {
+      _push(ssrRenderComponent(_component_router_link, { to: "/" }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(`Home`);
@@ -210,7 +210,7 @@ _sfc_main$e.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/NavBar.vue");
   return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
 };
-const _imports_0 = "/home/assets/me-C1BLV1AF.jpg";
+const _imports_0 = "/assets/me-C1BLV1AF.jpg";
 const _sfc_main$d = {
   __name: "Hero",
   __ssrInlineRender: true,
@@ -915,7 +915,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const routes = [
   {
-    path: "/home",
+    path: "/",
     name: "home",
     component: _sfc_main$8,
     meta: {
@@ -997,7 +997,7 @@ const routes = [
   }
 ];
 createRouter({
-  history: createMemoryHistory("/home/"),
+  history: createMemoryHistory("/"),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
