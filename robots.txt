@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /contact
+Allow: /about
+Allow: /dyslexia
+Allow: /resources
+Allow: /blog
+Sitemap: https://www.lexety.com/sitemap.xml
